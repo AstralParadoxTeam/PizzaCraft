@@ -172,7 +172,8 @@ public class CommonEventHandler
 			}
 		}
 	}
-	
+
+    @SideOnly(Side.CLIENT)
 	@SubscribeEvent
 	public static void onLivingUpdate(LivingUpdateEvent event)
 	{
